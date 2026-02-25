@@ -1,0 +1,19 @@
+/* Project Map - CSS variables (dark theme, edgy) */
+:root {
+  --bg-dark: #0a0e14;
+  --bg-card: #12171e;
+  --bg-sidebar: #06090d;
+  --border: #1e2730;
+  --text-primary: #e6edf3;
+  --text-muted: #7d8996;
+  --accent-blue: #58a6ff;
+  --accent-green: #3fb950;
+  --accent-amber: #d29922;
+  --accent-red: #f85149;
+  --accent-orange: #db6d28;
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-bg: var(--bg-dark);
+  --bs-body-color: var(--text-primary);
+}
